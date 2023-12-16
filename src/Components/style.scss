@@ -1,0 +1,241 @@
+.web-page-holder {
+    width: 100%;
+    .left-part {
+        height: 100vh;
+        padding: 40px 35px;
+        padding-right: 0px !important;
+        background: radial-gradient(
+            86.84% 79.84% at 32.27% 91.27%,
+            rgba(31, 169, 17, 0.810119) 19.21%,
+            #2f15d0 138.58%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        h4 {
+            //styleName: Heading 4;
+            font-family: Inter;
+            font-size: 31px;
+            font-weight: 500;
+            line-height: 37px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #f2f2f2;
+        }
+        p {
+            //styleName: Body;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #f2f2f2;
+        }
+        h5 {
+            //styleName: Heading 5;
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: right;
+            color: #f2f2f2;
+        }
+        #myCarousel {
+            .carousel-inner {
+                .carousel-item {
+                    margin-left: 20px;
+                    .card {
+                        width: 175px;
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0px 2.799999952316284px 7px 0px #0000000a;
+                        background: linear-gradient(0deg, #ffffff, #ffffff),
+                            linear-gradient(180deg, rgba(255, 255, 255, 0.2) 27.5%, rgba(22, 93, 255, 0.162) 157.71%);
+                        span {
+                            font-family: Inter;
+                            font-size: 10px;
+                            font-weight: 600;
+                            line-height: 11px;
+                            letter-spacing: 0px;
+                            text-align: right;
+                            color: #19191a;
+                        }
+                        h4 {
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 17px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #19191a;
+                        }
+                        input {
+                            font-family: Inter;
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 16px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #19191a;
+                            height: 35px;
+                            &::placeholder {
+                                //styleName: Caption;
+                                font-family: Inter;
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 16px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #19191a;
+                            }
+                        }
+                        h5 {
+                            font-family: Inter;
+                            font-size: 11px;
+                            font-weight: 500;
+                            line-height: 13px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #19191a;
+                        }
+                        .select-value {
+                            width: 60px;
+                            border-radius: 2.8px;
+                            padding: 5px;
+                            background-color: #e5e5e680;
+                            color: #313233;
+                            font-family: Inter;
+                            font-size: 9px;
+                            font-weight: 500;
+                            line-height: 11px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+        .testimonial-cards {
+            display: flex;
+            align-items: flex-end;
+            margin-top: 20px;
+            .testimonial-card {
+                margin-left: 15px;
+                background-color: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0px 1px 1px 0px #0000000a;
+
+                box-shadow: 0px 4px 10px 0px #0000000a;
+                padding: 25px 25px;
+                width: 345px;
+                h5 {
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 19px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #19191a;
+                    span {
+                        //styleName: Caption;
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 500;
+                        line-height: 16px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #96979a;
+                    }
+                }
+                .testimonal-text {
+                    //styleName: Body;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #1d2129;
+                }
+            }
+        }
+    }
+    .right-part {
+        position: relative;
+        box-shadow: 0px 14px 64px -4px #18274b1f;
+
+        box-shadow: 0px 8px 22px -6px #18274b1f;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        .input-box {
+            width: 58%;
+            h3 {
+                font-family: Inter;
+                font-size: 39px;
+                font-weight: 500;
+                line-height: 47px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #b0b1b3 !important;
+            }
+            .email-input {
+                height: 59px;
+                box-shadow: 0px 1px 1px 0px #0000000a;
+                border: 1px solid #e5e5e6;
+                border-radius: 8px;
+                &::placeholder {
+                    //styleName: Body;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #cacbcc;
+                }
+            }
+            button {
+                height: 59px;
+                background-color: #19191a;
+                color: #fff;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: center;
+                border-radius: 8px;
+                border: 1px solid #19191a;
+            }
+            p {
+                margin: 12px 0px;
+                font-family: Inter;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #19191a;
+            }
+        }
+    }
+}
+
+.testimonials-container {
+    display: flex;
+}
+
+.testimonial-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    cursor: grab;
+}
+
+.testimonial-card.dragging {
+    cursor: grabbing;
+}
