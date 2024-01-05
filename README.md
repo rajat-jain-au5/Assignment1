@@ -8,13 +8,13 @@ It is React app, its purposse is that showing space mission data in table format
 ## Screenshots
 Login page
 
-![Screenshot 1](/images/s1.png)
+![Screenshot 1](./public/images/s1.png)
 
 Dashboard Page
 
-![Screenshot 2](/images/s2.png)
+![Screenshot 2](./public/images/s1.png)
 
-![Screenshot 3](/images/s3.png)
+![Screenshot 3](./public/images/s1.png)
 
 
 ## Installation
