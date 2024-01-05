@@ -1,0 +1,45 @@
+.sm-holder {
+    .layout-container {
+        margin-left: 132px;
+        margin-right: 132px;
+        margin-top: 70px;
+    }
+    .user-menu-section {
+        display: none;
+    }
+
+    ul {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sm-holder {
+        background-color: #fff;
+        // height: 100vh;
+        .layout-container {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+    }
+    .user-menu-section {
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        max-width: 60px;
+        .dropdown-menu {
+            top: 58px !important;
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            margin: 0 auto !important;
+            left: 0 !important;
+            right: 0 !important;
+            transform: none !important;
+        }
+        .dropdown-toggle::after {
+            display: none;
+        }
+    }
+}
